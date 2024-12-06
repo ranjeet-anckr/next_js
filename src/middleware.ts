@@ -25,7 +25,7 @@ export async function middleware(request: NextRequest) {
   const host = request.headers.get("host");
   const subdomain = host?.split(".")[0];
 
-  if (subdomain === "www" || host === baseURL || url.pathname.endsWith("/not-found")) {
+  if (subdomain === "www" || host === `http://${baseURL}` || url.pathname.endsWith("/not-found")) {
     return NextResponse.next();
   }
 

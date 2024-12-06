@@ -3,8 +3,8 @@ export async function GET() {
     { id: 1, name: "hello", description: "Subdomain for greetings" },
     { id: 2, name: "blog", description: "Subdomain for blog content" },
     { id: 3, name: "shop", description: "Subdomain for the online store" },
-    { id: 4, name: "news", description: "Subdomain for the latest news" },
-    { id: 5, name: "support", description: "Subdomain for customer support" },
+    { id: 4, name: "ranjeetkumar", description: "Subdomain for the latest news" },
+    { id: 5, name: "analkumar", description: "Subdomain for customer support" },
     {
       id: 6,
       name: "community",
